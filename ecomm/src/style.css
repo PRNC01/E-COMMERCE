@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+header{
+  width: 100vw;
+  height: auto;
+  border-bottom: 1px solid #000000;
+}
+#productContainer{
+  width: 95vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+.Card
+.information{
+  width: 25vw;
+  height: 70vh;
+  border: 1px solid #000000;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.imageContainer{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  & .productImage{
+    width: 20%;
+    height: 100%;
+  }
+}
+.productName{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background-size: cover;
+}
+.productRating{
+  width: 90%;
+  height: .5rem;
+  margin: auto;
+}
+.productDescription{
+  width: 90%;
+  height: 20vh;
+  margin: auto;
+}
+.productPriceElement{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.2rem;
+
+  & .productActualPrice{
+    text-decoration: line-through;
+  }
+}
+.productStockElement{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+.productQuantityElement{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  & .StockElement{
+    width: 40%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    & .productQuantity{
+      text-align: center;
+    }
+  }
+}
+.addToCart{
+  width: 90%;
+  height: auto;
+  margin: auto;
+
+  & button{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+}

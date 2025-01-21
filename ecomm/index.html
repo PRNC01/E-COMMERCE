@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <div id="Cart-Button">
+        <a href="Cart.html">Cart</a>
+      </div>
+    </header>
+
+    <section>
+      <div id="productContainer"></div>
+    </section>
+
+    <!-- TEMPLATE FOR PRODUCT CARD -->
+     <template id="productTemplate">
+      <div class="Card" id="cardValue">
+        <article class="information [Card]">
+  
+          <div class="imageContainer">
+            <img class="productImage" src="" alt="">
+          </div>
+  
+          <h2 class="productName"></h2>
+  
+          <div class="productRating">
+            
+          </div>
+  
+          <p class="productDescription"></p>
+  
+          <div class="productPriceElement">
+            <P class="productPrice"></P>
+            <p class="productActualPrice"></p>
+          </div>
+  
+          <div class="productStockElement">
+            <p class="productProperty">Total Stocks Available:</p>
+            <p class="productStock"></p>
+          </div>
+  
+          <div class="productQuantityElement">
+            <p class="productProperty">Quantity(Pieces)</p>
+  
+            <div class="StockElement">
+              <button class="cartIncrement">+</button>
+              <p class="productQuantity"></p>
+              <button class="cartDecrement">-</button>
+            </div>
+  
+          </div>
+  
+          <div class="addToCart">
+            <button class="addToCartButton">Add To Cart</button>
+          </div>
+          
+        </article>
+       </div>
+     </template>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

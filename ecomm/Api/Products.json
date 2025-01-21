@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "Name":"Laptop",
+        "category":"Computer",
+        "Brand":"ExampleBrand",
+        "price":999.99,
+        "Stock":50,
+        "Description":"Powerfull Laptop with a quad core is processor, 8GB RAM, 256GM SSD, 14 inc Display.",
+        "image":""
+    },
+    {
+        "id":2,
+        "Name":"Phone",
+        "category":"Mobile",
+        "Brand":"ExampleBrand",
+        "price":9999.99,
+        "Stock":50,
+        "Description":"Powerfull Laptop with a quad core is processor, 8GB RAM, 256GM SSD, 14 inc Display.",
+        "image":"Phone.png"
+    },
+    {
+        "id":3,
+        "Name":"Laptop",
+        "category":"Computer",
+        "Brand":"ExampleBrand",
+        "price":999.99,
+        "Stock":50,
+        "Description":"Powerfull Laptop with a quad core is processor, 8GB RAM, 256GM SSD, 14 inc Display.",
+        "image":"Laptop.png"
+    },
+    {
+        "id":4,
+        "Name":"Laptop",
+        "category":"Computer",
+        "Brand":"ExampleBrand",
+        "price":999.99,
+        "Stock":50,
+        "Description":"Powerfull Laptop with a quad core is processor, 8GB RAM, 256GM SSD, 14 inc Display.",
+        "image":""
+    }
+]
